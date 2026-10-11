@@ -15,23 +15,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Mode.ctl" Type="VI" URL="../Libraries/Launcher/Mode.ctl"/>
-			<Item Name="User Events Metadata.ctl" Type="VI" URL="../Libraries/User Events Metadata.ctl"/>
-			<Item Name="captures file info metadata--cluster.ctl" Type="VI" URL="../Libraries/Launcher/captures file info metadata--cluster.ctl"/>
-			<Item Name="Capture detection loop data--cluster.ctl" Type="VI" URL="../Libraries/Launcher/Capture detection loop data--cluster.ctl"/>
 			<Item Name="Replay.lvlib" Type="Library" URL="../Libraries/Replay/Replay.lvlib"/>
-			<Item Name="RecordMode.ctl" Type="VI" URL="../../../RecordMode.ctl"/>
-			<Item Name="ReplayMetadata.ctl" Type="VI" URL="../ReplayMetadata.ctl"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Replay API.vi" Type="VI" URL="../Libraries/Replay/Test Replay API.vi"/>
 		</Item>
-		<Item Name="CaptureJSONtypedef.ctl" Type="VI" URL="../../../CaptureJSONtypedef.ctl"/>
-		<Item Name="global.vi" Type="VI" URL="../Libraries/Core/global.vi"/>
-		<Item Name="Path to Captures.vi" Type="VI" URL="../Libraries/Launcher/Path to Captures.vi"/>
-		<Item Name="ReplayMode.ctl" Type="VI" URL="../../../ReplayMode.ctl"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../../../Untitled 1.vi"/>
-		<Item Name="Untitled 2.vi" Type="VI" URL="../../../Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Launcher" Type="EXE">
