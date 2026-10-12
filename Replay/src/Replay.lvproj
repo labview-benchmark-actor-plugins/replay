@@ -20,6 +20,10 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Replay API.vi" Type="VI" URL="../Libraries/Replay/Test Replay API.vi"/>
 		</Item>
+		<Item Name="Initialize LUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/Initialize LUT.vi"/>
+		<Item Name="LUTSelector.ctl" Type="VI" URL="../../../../modules/coordinator/src/Libraries/LUTSelector.ctl"/>
+		<Item Name="MainLUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/MainLUT.vi"/>
+		<Item Name="MainLUTQualifiedNameParser.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/MainLUTQualifiedNameParser.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Launcher" Type="EXE">
