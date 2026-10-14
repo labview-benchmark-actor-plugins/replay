@@ -13,6 +13,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Emulation Sandbox" Type="Folder">
+			<Item Name="EmulationSandboxKeyboard.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/EmulationSandboxKeyboard.vi"/>
+		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Replay.lvlib" Type="Library" URL="../Libraries/Replay/Replay.lvlib"/>
@@ -21,11 +24,11 @@
 			<Item Name="Test Replay API.vi" Type="VI" URL="../Libraries/Replay/Test Replay API.vi"/>
 		</Item>
 		<Item Name="DecodeSerializerEvents.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/DecodeSerializerEvents.vi"/>
-		<Item Name="EmulationSandbox.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/EmulationSandbox.vi"/>
 		<Item Name="Initialize LUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/Initialize LUT.vi"/>
 		<Item Name="KeybdEventSerializerLUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/KeybdEventSerializerLUT.vi"/>
 		<Item Name="KeyboardLUTSelector.ctl" Type="VI" URL="../../../../modules/coordinator/src/Libraries/KeyboardLUTSelector.ctl"/>
 		<Item Name="KeyboardReplayKey.ctl" Type="VI" URL="../../../KeyboardReplayKey.ctl"/>
+		<Item Name="KeyboardSerializer.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/KeyboardSerializer.vi"/>
 		<Item Name="KeyPressLUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/KeyPressLUT.vi"/>
 		<Item Name="KeyToVirtualKey.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/KeyToVirtualKey.vi"/>
 		<Item Name="LUTVirtualKeySelector.ctl" Type="VI" URL="../../../../modules/coordinator/src/Libraries/LUTVirtualKeySelector.ctl"/>
@@ -33,6 +36,7 @@
 		<Item Name="MainLUTQualifiedNameParser.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/MainLUTQualifiedNameParser.vi"/>
 		<Item Name="MouseLUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/MouseLUT.vi"/>
 		<Item Name="MouseLUTSelector.ctl" Type="VI" URL="../../../../modules/coordinator/src/Libraries/MouseLUTSelector.ctl"/>
+		<Item Name="SerializedKeyPress.ctl" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/SerializedKeyPress.ctl"/>
 		<Item Name="VirtualKeyLUTQualifiedNameParser.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/VirtualKeyLUTQualifiedNameParser.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
