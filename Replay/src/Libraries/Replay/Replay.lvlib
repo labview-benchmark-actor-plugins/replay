@@ -93,7 +93,6 @@
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
-		<Item Name="Load Replay Samples.vi" Type="VI" URL="../Load Replay Samples.vi"/>
 		<Item Name="Write Mouse Event Frame.vi" Type="VI" URL="../Write Mouse Event Frame.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
@@ -113,4 +112,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Replay Helper Loop.ctl" Type="VI" URL="../Replay Helper Loop.ctl"/>
+	<Item Name="Load Replay Samples.vi" Type="VI" URL="../Load Replay Samples.vi"/>
 </Library>

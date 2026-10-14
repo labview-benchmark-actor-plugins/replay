@@ -20,6 +20,8 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Replay API.vi" Type="VI" URL="../Libraries/Replay/Test Replay API.vi"/>
 		</Item>
+		<Item Name="DecodeSerializerEvents.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/DecodeSerializerEvents.vi"/>
+		<Item Name="EmulationSandbox.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/EmulationSandbox.vi"/>
 		<Item Name="Initialize LUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/Initialize LUT.vi"/>
 		<Item Name="KeybdEventSerializerLUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/KeybdEventSerializerLUT.vi"/>
 		<Item Name="KeyboardReplayKey.ctl" Type="VI" URL="../../../KeyboardReplayKey.ctl"/>
