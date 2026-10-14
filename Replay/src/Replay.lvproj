@@ -25,6 +25,7 @@
 		<Item Name="Initialize LUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/Initialize LUT.vi"/>
 		<Item Name="KeybdEventSerializerLUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/KeybdEventSerializerLUT.vi"/>
 		<Item Name="KeyboardReplayKey.ctl" Type="VI" URL="../../../KeyboardReplayKey.ctl"/>
+		<Item Name="KeyPressLUT.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/UserEventRecorder/KeyPressLUT.vi"/>
 		<Item Name="KeyToVirtualKey.vi" Type="VI" URL="../../../../modules/coordinator/src/Libraries/KeyToVirtualKey.vi"/>
 		<Item Name="LUTSamplesSelector.ctl" Type="VI" URL="../../../../modules/coordinator/src/Libraries/LUTSamplesSelector.ctl"/>
 		<Item Name="LUTVirtualKeySelector.ctl" Type="VI" URL="../../../../modules/coordinator/src/Libraries/LUTVirtualKeySelector.ctl"/>
